@@ -60,7 +60,7 @@ class bus_booking:
         Label(root, text='\n\n\n\n\n\n').pack()
         Label(root, image=bus).pack()
         Label(root, text="Online Bus Booking System", font='Arial 20 bold', bg='skyblue', fg='red').pack()
-        Label(root, text="Name:Shreeya Mishra", font='Arial 17 bold', fg='midnightblue').pack()
+        #Label(root, text="", font='Arial 17 bold', fg='midnightblue').pack()
         Label(root, text="\nEnr : 211B302", font='Arial 17 bold', fg='midnightblue').pack()
         Label(root, text="\nMobile : 9634422535\n\n\n\n", font='Arial 14 bold', fg='midnightblue').pack()
         Label(root, text="Submitted to:Dr. Mahesh Kumar", font='Arial 15 bold', bg='skyblue', fg='red').pack()
