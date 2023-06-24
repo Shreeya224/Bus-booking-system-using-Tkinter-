@@ -61,9 +61,9 @@ class bus_booking:
         Label(root, image=bus).pack()
         Label(root, text="Online Bus Booking System", font='Arial 20 bold', bg='skyblue', fg='red').pack()
         #Label(root, text="", font='Arial 17 bold', fg='midnightblue').pack()
-        Label(root, text="\nEnr : 211B302", font='Arial 17 bold', fg='midnightblue').pack()
-        Label(root, text="\nMobile : 9634422535\n\n\n\n", font='Arial 14 bold', fg='midnightblue').pack()
-        Label(root, text="Submitted to:Dr. Mahesh Kumar", font='Arial 15 bold', bg='skyblue', fg='red').pack()
+        #Label(root, text="\nEnr : ", font='Arial 17 bold', fg='midnightblue').pack()
+        #Label(root, text="\nMobile : \n\n\n\n", font='Arial 14 bold', fg='midnightblue').pack()
+        #Label(root, text="Submitted to:", font='Arial 15 bold', bg='skyblue', fg='red').pack()
         Label(root, text="Project Based Learning", font='Arial 15 bold', fg='red').pack()
 
         def cover_to_home(event):
